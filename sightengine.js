@@ -1,4 +1,4 @@
-var fetch = require('node-fetch');
+var fetch = require('isomorphic-fetch');
 const fs = require('fs');
 const FormData = require('form-data');
 const version = require('./package.json').version;
